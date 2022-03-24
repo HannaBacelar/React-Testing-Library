@@ -29,13 +29,13 @@ const favoritesMockPokemons = [{
 
 describe('Teste o componente <FavoritePokemons.js />', () => {
   // Teste se é exibido na tela a mensagem No favorite pokemon found,
-  test(' ...se a pessoa não tiver pokémons favoritos.', () => {
+  it(' ...se a pessoa não tiver pokémons favoritos.', () => {
     renderWithRouter(<FavoritePokemons />);
     const naoPokemon = screen.getByText(/No favorite pokemon found/i);
     expect(naoPokemon).toBeInTheDocument();
   });
 
-  test('Teste se é exibido todos os cards de pokémons favoritados. ', () => {
+  it('Teste se é exibido todos os cards de pokémons favoritados. ', () => {
     renderWithRouter(<FavoritePokemons pokemons={ favoritesMockPokemons } />);
     const todosCards = screen.getAllByTestId('pokemon-name');
     expect(todosCards).toHaveLength(2);
