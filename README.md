@@ -1,7 +1,7 @@
   
   #  📝 Boas vindas ao repositório do projeto React Testing Library!
 
-- Este proejto foi desenvolido no ano de 2022 no Módulo de Fundamentos na trybe!!
+- Este proejto foi desenvolido no ano de 2022 no Módulo de Front_ End na trybe!!
 
 # 🚦 Habilidades ultilizadas 
 _ Utilizar os seletores (queries) da React-Testing-Library em testes automatizados.
