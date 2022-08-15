@@ -17,7 +17,7 @@ _ Criar mocks de APIs utilizando fetch.
 _ Testar inputs.
 
 # Contextualizando
-Esse projeto possui testes para uma aplicação React.js, as aplicaçoes foram dadas pelo curso da trybe, e tive a funçãp de cobrir esses testes.
+Esse projeto possui testes para uma aplicação React.js, as aplicaçoes foram dadas pelo curso da trybe, e tive a função de cobrir esses testes.
 # Como Instalar  e configurar 
   1. Clone o repositório
   - git  clone git@github.com:HannaBacelar/Rect-Testing-Library.git
